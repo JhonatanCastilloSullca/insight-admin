@@ -11,7 +11,7 @@
                             <span class="error-message" style="color:red">{{ $message }}</span>
                         @enderror
                     </div>
-                    @if ($categoriaint == 4)
+                    {{-- @if ($categoriaint == 4)
                         <div class="mb-3 col-md-3" >
                             <div wire:ignore>
                                 <label class="form-label" for="categoria_id">Categoria:</label>
@@ -59,9 +59,9 @@
                                 </select>
                             </div>
                         </div>
-                    @endif
+                    @endif --}}
                 </div>
-                <div class="row">
+                {{-- <div class="row">
                     @if ($categoriaint == 1)
                         <div class="mb-3 col-md-3" >
                             <div wire:ignore>
@@ -120,7 +120,7 @@
                         </div>
                     @endif
                 </div>
-                @if ($categoriaint != 4)
+                @if ($categoriaint != 4) --}}
                 <div class="row">
                     <div class="mb-3 col-md-12" >
                         <div wire:ignore>
@@ -146,7 +146,7 @@
                         @endif
                     </div>
                 </div>
-                @endif
+                {{-- @endif
                 @if($categoriaint == 1)
                     <div class="row">
                         <div class="mb-3 col-md-12" >
@@ -157,7 +157,7 @@
                             </div>
                         </div>
                     </div>
-                @endif
+                @endif --}}
             </div>
         </div>
     </div>
@@ -235,9 +235,8 @@
                         </div>
                         @endif
                     </div> --}}
-
                     
-                    <div class="row">
+                    {{-- <div class="row">
                         <div class="mb-1 col-md-10">
                             <div wire:ignore>
                                 <label class="form-label" for="template{{$k}}">Template Principal:</label>
@@ -251,7 +250,7 @@
                                 </a>
                             @endif
                         </div>
-                    </div>
+                    </div> --}}
                 @endfor
             </div>
         </div>

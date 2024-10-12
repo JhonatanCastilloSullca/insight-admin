@@ -151,7 +151,7 @@ class RealizarPagoHotel extends Component
             $mensaje .= "Agradecemos confirmar la recepción del pago y las reservas. Quedamos atentos a su respuesta.\n\n";
             $mensaje .= "Atentamente,\n";
             $mensaje .= "*{$user->nombre}*\n";
-            $mensaje .= "Agencia de Viajes Jisa Adventure\n";
+            $mensaje .= "Agencia de Viajes Cuzco Travel\n";
             $mensaje .= "Teléfono: +51 926 561 020\n";
             $mensaje .= "Correo electrónico: operaciones@cuscoinsight.com\n";
         

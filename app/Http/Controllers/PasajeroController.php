@@ -42,7 +42,7 @@ class PasajeroController extends Controller
         $mensaje .= "Estamos muy emocionados por tu próxima aventura en Perú 🇵🇪 y queremos asegurarnos de que todo esté bien coordinado para tu llegada. Para ofrecerte el mejor servicio, necesitamos que nos confirmes algunos detalles\n\n";
         $mensaje .= "⿡ Itinerarios de vuelos (internacionales e internos):\n Por favor, confirma las horas de llegada y salida de tus vuelos para que podamos organizar los traslados de forma eficiente. 🕒\n\n";
         $mensaje .= "⿢ Hoteles:\n * Si ya tienes reservas de hotel, indícanos el nombre\n * Si reservaste los hoteles con nosotros, no te preocupes porque ya todo esta en orden\n * Si aún no has reservado, podemos ayudarte 🕒\n\n";
-        $mensaje .= "🏨📸 Mi nombre es *".\Auth::user()->nombre."* y estará a tu disposición para cualquier pregunta que tengas antes o durante tu viaje. No dudes en escribirme si necesitas alguna información adicional. 🗺 ¡En Jisa Adventure estamos contando los días para recibirte con los brazos abiertos! 🙌✨";
+        $mensaje .= "🏨📸 Mi nombre es *".\Auth::user()->nombre."* y estará a tu disposición para cualquier pregunta que tengas antes o durante tu viaje. No dudes en escribirme si necesitas alguna información adicional. 🗺 ¡En Cuzco Travel estamos contando los días para recibirte con los brazos abiertos! 🙌✨";
         
         $mensajeCodificado = urlencode($mensaje);
         $numero = preg_replace('/[^0-9]/', '', $reserva->pasajeroprincipal()->celular);

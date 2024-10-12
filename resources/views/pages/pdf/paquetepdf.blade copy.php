@@ -691,7 +691,7 @@
                                 </tr>
                                 <tr>
                                     <td class="infoemptd">
-                                        <b>RAZON SOCIAL:</b><span>AVT JISA ADVENTURE EIRL</span>
+                                        <b>RAZON SOCIAL:</b><span>AVT CUZCO TRAVEL EIRL</span>
                                     </td>
                                 </tr>
                             </tbody>

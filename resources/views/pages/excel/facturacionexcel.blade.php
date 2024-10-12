@@ -22,7 +22,7 @@
                         </td>
                         <td colspan="9">
                             <h3 class="text-uppercase m0">
-                                A.V.T. JISA ADVENTURE E.I.R.L.
+                                A.V.T. CUZCO TRAVEL E.I.R.L.
                             </h3>
                         </td>
                     </tr>

@@ -25,7 +25,7 @@ Agradecemos confirmar la recepción del pago y las reservas. Quedamos atentos a 
 
 Atentamente,  
 **{{ $user->nombre }}**  
-Agencia de Viajes Jisa Adventure  
+Agencia de Viajes Cuzco Travel  
 Teléfono: [+51 926 561 020](https://wa.me/51926561020)  
 Correo electrónico: operaciones@cuscoinsight.com  
 

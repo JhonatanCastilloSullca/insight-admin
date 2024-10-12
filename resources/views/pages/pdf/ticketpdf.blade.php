@@ -207,7 +207,7 @@
                 <tr>
                     <td>
                         <div class="h5-h6-space"></div>
-                        <h5 class="h5-info-empresa">A.V.T. JISA ADVENTURE E.I.R.L.</h5>
+                        <h5 class="h5-info-empresa">A.V.T. CUZCO TRAVEL E.I.R.L.</h5>
                         <h5 class="h5-info-empresa">Tour Operator</h5>
                         <div class="h5-h6-space"></div>
                         <h6 class="h6-info-empresa">Contact:984 930 404</h6>

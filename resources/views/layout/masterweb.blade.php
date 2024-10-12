@@ -5,12 +5,12 @@
 		<meta charset="UTF-8">
 		<meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=0'>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="Description" content="Sistema de Jisa">
+		<meta name="Description" content="Sistema de Cuzco Travel">
 		<meta name="Author" content="David Miranda Tarco">
-		<meta name="Keywords" content="Sistema de Jisa"/>
+		<meta name="Keywords" content="Sistema de Cuzco Travel"/>
 
 		<!-- Title -->
-		<title> Jisa - Sistema de Jisa </title>
+		<title> Cuzco Travel - Sistema de Cuzco Travel </title>
 
 		<!-- Favicon -->
 		@stack('head')

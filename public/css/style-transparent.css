@@ -561,11 +561,11 @@ body.transparent-theme.bg-img4 {
 }
 
 .transparent-theme .text-success {
-    color: #c1d96c !important;
+    color: #858C43 !important;
 }
 
 .transparent-theme .badge-success-transparent {
-    color: #c1d96c;
+    color: #858C43;
     background-color: rgba(8, 104, 88, 0.15) !important;
 }
 
@@ -3174,7 +3174,7 @@ body.transparent-theme.bg-img4 {
 }
 
 .transparent-theme .bg-success {
-    background-color: #c1d96c !important;
+    background-color: #858C43 !important;
 }
 
 .transparent-theme .bg-info p.card-text {
@@ -4520,7 +4520,7 @@ body.transparent-theme.bg-img4 {
 }
 
 .transparent-theme .alert-success .alert-link {
-    color: #c1d96c;
+    color: #858C43;
 }
 
 .transparent-theme .alert-danger .alert-link {

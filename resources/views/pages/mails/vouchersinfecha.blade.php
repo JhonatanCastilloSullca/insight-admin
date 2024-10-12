@@ -1,6 +1,6 @@
 @component('mail::message')
 # Estimado/a {{$pasajero->nombreCompleto}}
-¡Gracias por elegir Jisa Adventure para su próxima aventura en Cusco! Nos complace confirmar que hemos recibido su reserva. Sin embargo, para asegurar completamente nuestros servicios, necesitamos que la confirmación de la fecha del tour se realice con al menos 3 meses de anticipación. A continuación, encontrará los detalles de su compra:
+¡Gracias por elegir Cuzco Travel para su próxima aventura en Cusco! Nos complace confirmar que hemos recibido su reserva. Sin embargo, para asegurar completamente nuestros servicios, necesitamos que la confirmación de la fecha del tour se realice con al menos 3 meses de anticipación. A continuación, encontrará los detalles de su compra:
 
 # Detalles de la Reserva
 
@@ -60,14 +60,14 @@ El guiado es en español. Si lo requiere en inglés, deberá especificarlo al mo
 
 Si tiene alguna pregunta o necesita asistencia adicional, no dude en contactarnos. Para nuestros clientes que ya han comprado su paquete o tour, tenemos un contacto exclusivo para ustedes: [+51 926 561 020](https://wa.me/51926561020?text=Hola%20soy%20%2A{{urlencode($pasajero->nombreCompleto)}}%2A,%20tengo%20una%20reserva%20con%20ustedes,%20fecha%20de%20viaje:%20{{date("d/m/Y",strtotime($reserva->primerafecha()->fecha_viaje))}}%20-%20{{date("d/m/Y",strtotime($reserva->ultimafecha()->fecha_viaje))}}). Este número pertenece a nuestra área de programaciones, encargada de brindarle un overview del tour que posee el día siguiente y de hacer el seguimiento durante su estancia en Perú. Estamos aquí para asegurarnos de que su experiencia sea inolvidable y sin contratiempos.
 
-Nuevamente, le agradecemos por confiar en Jisa Adventure. Estamos emocionados de ser parte de su experiencia en Cusco y esperamos brindarle un servicio excepcional.
+Nuevamente, le agradecemos por confiar en Cuzco Travel. Estamos emocionados de ser parte de su experiencia en Cusco y esperamos brindarle un servicio excepcional.
 
 
 Atentamente,
 
 Counter: {{$reserva->user->nombre}}
 
-# Equipo de Jisa Adventure  
+# Equipo de Cuzco Travel  
 Calle Garcilaso 265 of 12, Cusco, Perú  
 ventas@cuscoinsight.com  
 +51926561020  

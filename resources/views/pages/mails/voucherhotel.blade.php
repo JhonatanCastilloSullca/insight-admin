@@ -2,7 +2,7 @@
 
 Estimado equipo del Hotel **{{ $proveedor->nombre }}**,
 
-Reciban un cordial saludo de parte de la **Agencia de Viajes Jisa Adventure**. Nos dirigimos a ustedes para solicitar la reserva de las siguientes habitaciones:
+Reciban un cordial saludo de parte de la **Agencia de Viajes Cuzco Travel**. Nos dirigimos a ustedes para solicitar la reserva de las siguientes habitaciones:
 
 @foreach($detalles as $detalle)
 Tipo de Habitación: **{{ $detalle->observacion }}**  
@@ -31,11 +31,11 @@ Nº Pasajeros: {{ count($detalle->operarPasajeros) }}
 
 Agradecemos su atención y esperamos su confirmación a la brevedad posible con la *fecha limite de pago*.
 
-El presente correo ha sido enviado por **{{ $operar->user->nombre }} de Jisa Adventure**. Quedamos a su disposición para cualquier consulta adicional.
+El presente correo ha sido enviado por **{{ $operar->user->nombre }} de Cuzco Travel**. Quedamos a su disposición para cualquier consulta adicional.
 
 Atentamente,  
 **{{ $operar->user->nombre }}**  
-Agencia de Viajes Jisa Adventure  
+Agencia de Viajes Cuzco Travel  
 Teléfono: [+51 926 561 020](https://wa.me/51926561020)  
 Correo electrónico: ventas@cuscoinsight.com  
 [www.cuscoinsight.com](http://www.cuscoinsight.com)

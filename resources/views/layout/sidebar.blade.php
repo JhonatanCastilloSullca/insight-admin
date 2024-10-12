@@ -33,33 +33,33 @@
                             {{-- @can('categoria.index')
                                 <li><a class="slide-item {{request()->routeIs(['categoria.*']) ? 'active': ''}}"  href="{{ route('categoria.index') }}">Categorias</a></li>
                             @endcan --}}
-                            @can('role.index')
+                            {{-- @can('role.index')
                                 <li><a class="slide-item {{request()->routeIs(['roles.*']) ? 'active': ''}}" href="{{ route('roles.index') }}"  >Roles</a></li>
-                            @endcan
+                            @endcan --}}
                             {{-- @can('ubicacion.index')
                                 <li><a class="slide-item {{request()->routeIs(['ubicacion.*']) ? 'active': ''}}"  href="{{ route('ubicacion.index') }}">Ubicaciones</a></li>
                             @endcan --}}
-                            @can('medio.index')
+                            {{-- @can('medio.index')
                                 <li><a class="slide-item {{request()->routeIs(['medio.*']) ? 'active': ''}}"  href="{{ route('medio.index') }}">Medios de Pago</a></li>
-                            @endcan
-                            @can('cupon.index')
+                            @endcan --}}
+                            {{-- @can('cupon.index')
                                 <li><a class="slide-item {{request()->routeIs(['cupon.*']) ? 'active': ''}}"  href="{{ route('cupon.index') }}">Cupones</a></li>
-                            @endcan
-                            @can('pdf.index')
+                            @endcan --}}
+                            {{-- @can('pdf.index')
                                 <li><a class="slide-item {{request()->routeIs(['pdfdatos.*']) ? 'active': ''}}"  href="{{ route('pdfdatos.edit',1) }}" >PDF Editar</a></li>
-                            @endcan
-                            @can('proveedor.index')
+                            @endcan --}}
+                            {{-- @can('proveedor.index')
                                 <li><a class="slide-item {{request()->routeIs(['proveedor.*']) ? 'active': ''}}"  href="{{ route('proveedor.index') }}">Proveedor</a></li>
-                            @endcan
-                            @can('precio.index')
+                            @endcan --}}
+                            {{-- @can('precio.index')
                                 <li><a class="slide-item {{request()->routeIs(['precio.*']) ? 'active': ''}}"  href="{{ route('precio.index') }}">Tarifa</a></li>
-                            @endcan
-                            @can('hotel.index')
+                            @endcan --}}
+                            {{-- @can('hotel.index')
                                 <li><a class="slide-item {{request()->routeIs(['hotel.*']) ? 'active': ''}}"  href="{{ route('hotel.index') }}">Hoteles</a></li>
-                            @endcan
-                            @can('pdfdatos.index')
+                            @endcan --}}
+                            {{-- @can('pdfdatos.index')
                                 <li><a class="slide-item {{request()->routeIs(['pdfdatos.*']) ? 'active': ''}}"  href="{{ route('pdfdatos.index') }}">Terminos</a></li>
-                            @endcan
+                            @endcan --}}
                         </ul>
                     </li>
                 @endif
@@ -71,12 +71,12 @@
                             @can('servicio.index')
                                 <li><a class="slide-item {{request()->routeIs(['servicio.index']) ? 'active': ''}}" href="{{ route('servicio.index') }}" >Servicios</a></li>
                             @endcan
-                            @can('servicio.hotel')
+                            {{-- @can('servicio.hotel')
                                 <li><a class="slide-item {{request()->routeIs(['servicio.hotel']) ? 'active': ''}}" href="{{ route('servicio.hotel') }}" >Hotel</a></li>
                             @endcan
                             @can('servicio.vuelo')
                                 <li><a class="slide-item {{request()->routeIs(['servicio.vuelo']) ? 'active': ''}}" href="{{ route('servicio.vuelo') }}" >Vuelos</a></li>
-                            @endcan
+                            @endcan --}}
                             @can('servicio.otros')
                                 <li><a class="slide-item {{request()->routeIs(['servicio.otros']) ? 'active': ''}}" href="{{ route('servicio.otros') }}" >Otros</a></li>
                             @endcan
@@ -97,7 +97,7 @@
                         </ul>
                     </li>
                 @endif
-                @if ( Gate::check('reserva.index') ||  Gate::check('reserva.create'))
+                {{-- @if ( Gate::check('reserva.index') ||  Gate::check('reserva.create'))
                     <li class="slide {{ Str::startsWith(request()->path(), 'reserva') ? 'is-expanded' : '' }}">
                         <a class="side-menu__item {{ Str::startsWith(request()->path(), 'reserva') ? 'active' : '' }}" data-bs-toggle="slide" href="javascript:void(0);">
                         <i class="fa fa-list-alt tx-16 me-2"></i> <span class="side-menu__label">Reservas</span><i class="angle fe fe-chevron-right"></i></a>
@@ -113,9 +113,9 @@
                             @endcan
                         </ul>
                     </li>
-                @endif
+                @endif --}}
 
-                @if ( Gate::check('calendario.hotel') ||  Gate::check('calendario.tours') ||  Gate::check('calendario.vuelos'))
+                {{-- @if ( Gate::check('calendario.hotel') ||  Gate::check('calendario.tours') ||  Gate::check('calendario.vuelos'))
                     <li class="slide {{ Str::startsWith(request()->path(), 'calendario') ? 'is-expanded' : '' }}">
                         <a class="side-menu__item {{ Str::startsWith(request()->path(), 'calendario') ? 'active' : '' }}" data-bs-toggle="slide" href="javascript:void(0);"><i class="far fa-calendar-times tx-16 me-2"></i><span class="side-menu__label">Calendario</span><i class="angle fe fe-chevron-right"></i></a>
                         <ul class="slide-menu">
@@ -140,8 +140,8 @@
                             <li><a class="slide-item {{request()->routeIs(['operacion.traslados']) ? 'active': ''}}"  href="{{ route('operacion.traslados') }}">Operacion Traslados</a></li>
                             <li><a class="slide-item {{request()->routeIs(['operacion.machupicchu']) ? 'active': ''}}"  href="{{ route('operacion.machupicchu') }}">Machupicchu</a></li>
                     </ul>
-                </li>
-
+                </li> --}}
+{{-- 
                 <li class="slide">
 					<a class="side-menu__item {{request()->routeIs(['notificacion.index']) ? 'active': ''}}"  href="{{ route('notificacion.index') }}" >
                         <i class="fa fa-bell tx-16 me-2"></i><span class="side-menu__label">Notificaciones</span>
@@ -163,22 +163,22 @@
 					<a class="side-menu__item {{request()->routeIs(['biblia.biblia']) ? 'active': ''}}"  href="{{ route('biblia.biblia') }}" >
                         <i class="fa fa-book tx-16 me-2"></i><span class="side-menu__label">Biblia</span>
 					</a>
-				</li>
-                @if ( Gate::check('liquidacion.ingreso') ||  Gate::check('liquidacion.salida'))
+				</li> --}}
+                {{-- @if ( Gate::check('liquidacion.ingreso') ||  Gate::check('liquidacion.salida'))
                     <li class="slide {{ Str::startsWith(request()->path(), 'liquidacion') ? 'is-expanded' : '' }}">
                         <a class="side-menu__item {{ Str::startsWith(request()->path(), 'liquidacion') ? 'active' : '' }}" data-bs-toggle="slide" href="javascript:void(0);">
                         <i class="fa fa-arrows-alt-h tx-16 me-2"></i> <span class="side-menu__label">Liquidaciones</span><i class="angle fe fe-chevron-right"></i></a>
                         <ul class="slide-menu">
-                            {{-- @can('liquidacion.ingreso')
+                            @can('liquidacion.ingreso')
                                 <li><a class="slide-item {{request()->routeIs(['liquidacion.ingreso']) ? 'active': ''}}" href="{{ route('liquidacion.ingreso') }}" >Liquidacion Ingreso</a></li>
-                            @endcan --}}
+                            @endcan
                             @can('liquidacion.salida')
                                 <li><a class="slide-item {{request()->routeIs(['liquidacion.salida']) ? 'active': ''}}" href="{{ route('liquidacion.salida') }}" >Liquidacion Egreso</a></li>
                             @endcan
                         </ul>
                     </li>
-                @endif
-                <li class="slide {{ Str::startsWith(request()->path(), 'facturacion') ? 'is-expanded' : '' }}">
+                @endif --}}
+                {{-- <li class="slide {{ Str::startsWith(request()->path(), 'facturacion') ? 'is-expanded' : '' }}">
                     <a class="side-menu__item {{ Str::startsWith(request()->path(), 'facturacion') ? 'active' : '' }}" data-bs-toggle="slide" href="javascript:void(0);"><svg xmlns="http://www.w3.org/2000/svg"  class="side-menu__icon" width="24" height="24" viewBox="0 0 24 24">
                         <path d="M20,3H4C2.9,3,2,3.9,2,5v14c0,1.1,0.9,2,2,2h16c1.1,0,2-0.9,2-2V5 C22,3.9,21.1,3,20,3z M10,17H5v-2h5V17z M10,13H5v-2h5V13z M10,9H5V7h5V9z M14.82,15L12,12.16l1.41-1.41l1.41,1.42L17.99,9 l1.42,1.42L14.82,15z" fill-rule="evenodd"/>
                     </svg><span class="side-menu__label">Facturación</span><i class="angle fe fe-chevron-right"></i></a>
@@ -187,8 +187,8 @@
                             <li><a class="slide-item {{request()->routeIs(['facturacion.listado']) ? 'active': ''}}" href="{{ route('facturacion.listado') }}" >Facturacion</a></li>
                             <li><a class="slide-item {{request()->routeIs(['facturacion.create']) ? 'active': ''}}" href="{{ route('facturacion.create') }}" >Crear</a></li>
                     </ul>
-                </li>
-                <li class="slide {{ Str::startsWith(request()->path(), 'contabilidad') ? 'is-expanded' : '' }}">
+                </li> --}}
+                {{-- <li class="slide {{ Str::startsWith(request()->path(), 'contabilidad') ? 'is-expanded' : '' }}">
                     <a class="side-menu__item {{ Str::startsWith(request()->path(), 'contabilidad') ? 'active' : '' }}" data-bs-toggle="slide" href="javascript:void(0);"><svg xmlns="http://www.w3.org/2000/svg"  class="side-menu__icon" width="24" height="24" viewBox="0 0 24 24">
                         <path d="M20,3H4C2.9,3,2,3.9,2,5v14c0,1.1,0.9,2,2,2h16c1.1,0,2-0.9,2-2V5 C22,3.9,21.1,3,20,3z M10,17H5v-2h5V17z M10,13H5v-2h5V13z M10,9H5V7h5V9z M14.82,15L12,12.16l1.41-1.41l1.41,1.42L17.99,9 l1.42,1.42L14.82,15z" fill-rule="evenodd"/>
                     </svg><span class="side-menu__label">Contabilidad</span><i class="angle fe fe-chevron-right"></i></a>
@@ -198,9 +198,9 @@
                     <ul class="slide-menu">
                             <li><a class="slide-item {{request()->routeIs(['contabilidad.utilidad']) ? 'active': ''}}" href="{{ route('contabilidad.utilidad') }}" >Utilidad</a></li>
                     </ul>
-                </li>
+                </li> --}}
 
-                <li class="slide {{ Str::startsWith(request()->path(), 'reportes') ? 'is-expanded' : '' }}">
+                {{-- <li class="slide {{ Str::startsWith(request()->path(), 'reportes') ? 'is-expanded' : '' }}">
                     <a class="side-menu__item {{ Str::startsWith(request()->path(), 'reportes') ? 'active' : '' }}" data-bs-toggle="slide" href="javascript:void(0);"><svg xmlns="http://www.w3.org/2000/svg"  class="side-menu__icon" width="24" height="24" viewBox="0 0 24 24">
                         <g><rect fill="none" height="24" width="24"/></g><g><g><rect height="11" width="4" x="4" y="9"/><rect height="7" width="4" x="16" y="13"/><rect height="16" width="4" x="10" y="4"/></g></g>                    </svg><span class="side-menu__label">Reportes</span><i class="angle fe fe-chevron-right"></i></a>
                     <ul class="slide-menu">
@@ -208,12 +208,12 @@
                             <li><a class="slide-item {{request()->routeIs(['reportes.tours']) ? 'active': ''}}" href="{{ route('reportes.tours') }}" >Tours</a></li>
                             <li><a class="slide-item {{request()->routeIs(['reportes.files']) ? 'active': ''}}" href="{{ route('reportes.files') }}" >Files</a></li>
                     </ul>
-                </li>
-                <li class="slide">
+                </li> --}}
+                {{-- <li class="slide">
 					<a class="side-menu__item {{request()->routeIs(['plantilla.consetur']) ? 'active': ''}}"  href="{{ route('plantilla.consetur') }}" >
                         <i class="fa fa-file tx-16 me-2"></i><span class="side-menu__label">Plantilla Consetur</span>
 					</a>
-				</li>
+				</li> --}}
 			</ul>
 			<div class="slide-right" id="slide-right"><svg xmlns="http://www.w3.org/2000/svg" fill="#7b8191" width="24" height="24" viewBox="0 0 24 24"><path d="M10.707 17.707 16.414 12l-5.707-5.707-1.414 1.414L13.586 12l-4.293 4.293z"/></svg></div>
 		</div>

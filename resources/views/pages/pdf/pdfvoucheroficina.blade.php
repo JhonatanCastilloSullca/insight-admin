@@ -127,7 +127,7 @@
             top: 60%;
             left: 50%;
             transform: translate(-50%, -50%);
-            color: #C1D96C;
+            color: #858C43;
             font-size: 255px;
             margin: 0;
         }

@@ -161,7 +161,7 @@
                             <div class="table-responsive" >
                                 <table id="egresos" class="table table-bordered table-striped table-sm">
                                     <thead>
-                                        <tr style="background-color: #C1D96C; color:#ffffff; font-size:0.6rem">
+                                        <tr style="background-color: #858C43; color:#ffffff; font-size:0.6rem">
                                             <th>#</th>
                                             <th>Reserva</th>
                                             <th>Pasajero</th>

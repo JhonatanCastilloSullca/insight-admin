@@ -69,7 +69,7 @@ class OperacionHotel extends Component
             if ($proveedor->correo == 2)
             {
                 $mensaje = "Estimado equipo del Hotel *{$proveedor->nombre}*,\n\n";
-                $mensaje .= "Reciban un cordial saludo de parte de la *Agencia de Viajes Jisa Adventure*. Nos dirigimos a ustedes para solicitar la reserva de las siguientes habitaciones:\n\n";
+                $mensaje .= "Reciban un cordial saludo de parte de la *Agencia de Viajes Cuzco Travel*. Nos dirigimos a ustedes para solicitar la reserva de las siguientes habitaciones:\n\n";
                 
                 foreach ($detalles as $detalle) {
                     $mensaje .= "Tipo de Habitación: *{$detalle->observacion}*\n";
@@ -96,11 +96,11 @@ class OperacionHotel extends Component
                 }
 
                 $mensaje .= "Agradecemos su atención y esperamos su confirmación a la brevedad posible.\n\n";
-                $mensaje .= "El presente mensaje ha sido enviado por *{$operar->user->nombre} de Jisa Adventure*.\n";
+                $mensaje .= "El presente mensaje ha sido enviado por *{$operar->user->nombre} de Cuzco Travel*.\n";
                 $mensaje .= "Quedamos a su disposición para cualquier consulta adicional.\n\n";
                 $mensaje .= "Atentamente,\n";
                 $mensaje .= "*{$operar->user->nombre}*\n";
-                $mensaje .= "Agencia de Viajes Jisa Adventure\n";
+                $mensaje .= "Agencia de Viajes Cuzco Travel\n";
                 $mensaje .= "Teléfono: +51 926 561 020\n";
                 $mensaje .= "Correo electrónico: ventas@cuscoinsight.com\n";
                 $mensaje .= "http://www.cuscoinsight.com\n";

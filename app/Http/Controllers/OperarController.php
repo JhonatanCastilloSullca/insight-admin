@@ -301,7 +301,7 @@ class OperarController extends Controller
         if ($request->notificacion == 1) {
             // Preparar el mensaje para enviar por WhatsApp
             $mensaje = "Estimado equipo del " . $detalleReserva->servicio->proveedor?->nombre . ",\n\n"
-            . "Reciban un cordial saludo de parte de la Agencia de Viajes Jisa Adventure. Nos dirigimos a ustedes para solicitar la reserva de las siguientes habitaciones:\n\n"
+            . "Reciban un cordial saludo de parte de la Agencia de Viajes Cuzco Travel. Nos dirigimos a ustedes para solicitar la reserva de las siguientes habitaciones:\n\n"
             . "Tipo de Habitación: " . $detalleReserva->servicio->titulo . "\n"
             . "Incluye:\n";
 

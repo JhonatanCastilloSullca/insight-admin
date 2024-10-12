@@ -43,7 +43,7 @@ class ReservaSinFechaMailable extends Mailable implements ShouldQueue
         $compressionService->compressPdf(Storage::path($pdfPath), Storage::path($compressedPdfPath));
         $compressionService->compressPdf(Storage::path($pdfPath2), Storage::path($compressedPdfPath2));
 
-        return $this->subject('Confirmación de Reserva - Jisa Adventure')
+        return $this->subject('Confirmación de Reserva - Cuzco Travel')
             ->with([
                 'reserva' => $this->reserva,
                 'compressedPdfPath' => $compressedPdfPath,

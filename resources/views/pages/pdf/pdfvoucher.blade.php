@@ -379,21 +379,21 @@
                         {!! $pdfdato->rec_cancel1 !!}
                     </p>
                     {{-- <span class="parrafo-termino">
-                        Estimado viajero, Reciba un cordial saludo de todo el equipo de Jisa Adventure. Nos llena de
+                        Estimado viajero, Reciba un cordial saludo de todo el equipo de Cuzco Travel. Nos llena de
                         entusiasmo que haya seleccionado nuestra compañía como su aliada en la exploración de las
                         maravillas del Perú. Nos comprometemos a proporcionarle una experiencia inolvidable, llena de
                         descubrimientos y aventuras.
                     </span>
                     <p class="parrafo-titulo">1. Reserva</p>
                     <p class="parrafo-subtitulo">a) Reserva tu viaje:</p>
-                    <span class="parrafo-termino">Puedes reservar un viaje con Jisa Adventure contactándonos al número
+                    <span class="parrafo-termino">Puedes reservar un viaje con Cuzco Travel contactándonos al número
                         telefónico +51 976 294 449 o por correo electrónico a ventas@cuscoinsight.com.</span>
                     <p class="parrafo-subtitulo">b) Reservas en el sitio web:</p>
                     <span class="parrafo-termino">Si reserva directamente a través de nuestro sitio web, asegúrese de
                         proporcionar todos los detalles requeridos incluido el nombre completo, el número de pasaporte,
                         la fecha de nacimiento, la nacionalidad y el sexo. Una vez que confirmemos su pago,
                         verificaremos la disponibilidad y obtendremos los permisos necesarios.
-                        Nota: Su reserva será realizada solo después de recibir una confirmación por escrito de Jisa
+                        Nota: Su reserva será realizada solo después de recibir una confirmación por escrito de Cuzco Travel
                         Adventure mediante su correo electrónico o número telefónico(WhatsApp).</span>
 
                     <p class="parrafo-titulo">2. Proceso de Reserva y Políticas de Pago:</p>
@@ -425,7 +425,7 @@
 
                     <p class="parrafo-titulo">3. Política de Cancelación y Modificaciones:</p>
                     <p class="parrafo-subtitulo">a) Derecho de Cancelación:</p>
-                    <span class="parrafo-termino">La A.V.T. Jisa Adventure se reserva el derecho de cancelar cualquier
+                    <span class="parrafo-termino">La A.V.T. Cuzco Travel se reserva el derecho de cancelar cualquier
                         viaje debido a circunstancias excepcionales o imprevistas. Nos comprometemos a comunicar
                         cualquier cambio con la mayor antelación posible y a ofrecer alternativas adecuadas para
                         reacomodar su experiencia.</span>
@@ -450,7 +450,7 @@
                     <p class="parrafo-titulo">5. Términos y Condiciones para el Tour de Machu Picchu</p>
                     <p class="parrafo-subtitulo">a) Transporte desde su Hotel:</p>
                     <span class="parrafo-termino">El transporte desde su hotel hasta la estación de buses en Wanchaq o
-                        en la Avenida El Sol se realizará en un servicio privado proporcionado por JISA ADVENTURE,
+                        en la Avenida El Sol se realizará en un servicio privado proporcionado por CUZCO TRAVEL,
                         garantizando comodidad y puntualidad al inicio de su aventura.
                         Posteriormente, el transporte hacia la estación de tren en Ollantaytambo será en un servicio
                         compartido proporcionado por la empresa Perú Rail o Inca Rail, ofreciendo una oportunidad única
@@ -516,7 +516,7 @@
                         del representante de la empresa (La empresa conservará esta información de manera confidencial y
                         la utilizará solo para tramites contables y administrativos).
 
-                        <br> - Todos los clientes al momento de contratar los servicios de Jisa Adventure, se
+                        <br> - Todos los clientes al momento de contratar los servicios de Cuzco Travel, se
                         comprometen a adquirir por cuenta propia los documentos y permisos vigentes necesarios para
                         desarrollar las actividades del itinerario con normalidad, además deben portar durante el
                         desarrollo de las excursiones dichos documentos cuyos datos enviaron al momento de la reserva.
@@ -571,7 +571,7 @@
                         aventura.</span>
                     <p class="parrafo-subtitulo">a) Divulgación obligatoria:</p>
                     <span class="parrafo-termino">Para garantizar una experiencia segura y placentera para todos
-                        nuestros aventureros, es fundamental que al realizar la reserva con Jisa Adventure, los viajeros
+                        nuestros aventureros, es fundamental que al realizar la reserva con Cuzco Travel, los viajeros
                         informen sobre cualquier condición médica preexistente, alergias o problemas de salud
                         específicos.</span>
                     <p class="parrafo-subtitulo">b) Salud y estado físico:</p>
@@ -579,14 +579,14 @@
                         tiene alguna duda sobre su salud, consulte con su médico. Si tienes más de 80 años, será
                         necesario un certificado médico vigente que acredite tu buen estado de salud.</span>
                     <p class="parrafo-subtitulo">c) Derechos de Participación:</p>
-                    <span class="parrafo-termino">Jisa Adventure se reserva la discreción de negar a cualquier
+                    <span class="parrafo-termino">Cuzco Travel se reserva la discreción de negar a cualquier
                         individuo el derecho de viajar o participar en actividades turísticas específicas si su
                         condición física o mental se considera inadecuada para el viaje o representa un riesgo para sí
                         mismo o para otros.</span>
                     <p class="parrafo-subtitulo">d) Divulgación del embarazo:</p>
                     <span class="parrafo-termino">El embarazo se clasifica como una condición especial de cuidado
                         médico y debe informarse al momento de la reserva. En ciertos Tours de Aventura Extrema, que
-                        pueden no ser aptos para todo público, Jisa Adventure se reserva el derecho de no aceptar la
+                        pueden no ser aptos para todo público, Cuzco Travel se reserva el derecho de no aceptar la
                         participación de mujeres embarazadas por razones de seguridad.
                         Esta medida se toma con el máximo cuidado para garantizar la integridad de todas las personas
                         involucradas en nuestras experiencias de aventura. Nuestro compromiso primordial es asegurar la
@@ -594,30 +594,30 @@
                         condiciones médicas y los niveles de riesgo asociados.</span>
 
                     <p class="parrafo-titulo">12. Derecho de uso de imágenes:</p>
-                    <span class="parrafo-termino">Al participar en cualquiera de los paquetes ofrecidos por Jisa
-                        Adventure el cliente otorga expresamente el permiso a Jisa Adventure para capturar y utilizar
+                    <span class="parrafo-termino">Al participar en cualquiera de los paquetes ofrecidos por Cuzco Travel
+                        Adventure el cliente otorga expresamente el permiso a Cuzco Travel para capturar y utilizar
                         cualquier imagen, foto y video tomados durante el tour con fines promocionales y de marketing.
                         Esto incluye, pero no se limita a, el uso en folletos, marketing en linea y plataformas de redes
                         sociales.
                         El cliente reconoce que no recibirá ninguna compensación, financiera o de otro tipo, por el uso
                         de dichas imágenes, fotos o vídeos. Este consentimiento se otorga libremente y sin la
                         expectativa de ningún retorno o beneficio.
-                        No obstante, en caso de que el cliente no desee que Jisa Adventure utilice cualquier imagen de
+                        No obstante, en caso de que el cliente no desee que Cuzco Travel utilice cualquier imagen de
                         su tour con fines promocionales, es necesario que lo comunique previamente. Para ello, puede
                         enviar un correo a su Asesor de Experiencias antes de iniciar el viaje.</span>
 
-                    <p class="parrafo-titulo">Compromiso de JISA ADVENTURE:</p>
+                    <p class="parrafo-titulo">Compromiso de CUZCO TRAVEL:</p>
                     <span class="parrafo-termino">
                         Nuestro compromiso es con su satisfacción y seguridad. Nuestro equipo está dedicado a manejar
                         todos los aspectos de su viaje con profesionalismo y cuidado, y estamos disponibles para
                         responder a cualquier consulta o necesidad que pueda surgir antes o durante su viaje.
-                        <br>Le agradecemos su confianza en Jisa Adventure y nos entusiasma poder ofrecerle una
+                        <br>Le agradecemos su confianza en Cuzco Travel y nos entusiasma poder ofrecerle una
                         experiencia de viaje que supere sus expectativas. Estamos seguros de que su aventura en Perú
                         será una historia que atesorará por siempre.
                         <br>Si tiene preguntas adicionales o necesita más información, no dude en contactarnos
                         <br>¡Esperamos darle la bienvenida pronto y ser parte de su inolvidable experiencia por Perú!
                         <br>Atentamente,
-                        <br>El Equipo de Jisa Adventure
+                        <br>El Equipo de Cuzco Travel
                     </span> --}}
                 </div>
             </div>

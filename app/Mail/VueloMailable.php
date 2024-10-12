@@ -21,7 +21,7 @@ class VueloMailable extends Mailable
     public function build()
     {
         $reserva=$this->reserva;
-        return  $this->subject('Confirmación de Reserva Jisa Adventure')
+        return  $this->subject('Confirmación de Reserva Cuzco Travel')
         ->markdown('pages.mails.vouchervuelo',[
             'reserva' => $this->reserva
         ]);

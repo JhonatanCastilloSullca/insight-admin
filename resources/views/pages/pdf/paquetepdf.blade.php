@@ -141,7 +141,6 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background-image: url('{{ asset('storage/img/template.png') }}'); /* Imagen de fondo */
             background-repeat: no-repeat;
             background-position: center center;
             background-size: cover;
@@ -627,28 +626,28 @@
     </div>
     @foreach ($paquete->detallestours as $k => $detalles)
         @foreach ($detalles->servicio->itinerarios as $i => $itinerario)
-    <div class="pagina-prueba">
+    <div class="pagina-prueba" style="">
         <div class="div1">
             
             <div class="half-width float-left">
                 
             </div>
             <div class="half-width float-left" style="background-color: #179a9d">                
-                <img src="{{ asset($detalles->servicio->img_principal) }}" alt="primera imagen" class="primera-image">
-                <img src="{{ asset($detalles->servicio->img_principal) }}" alt="segunda imagen" class="segunda-image">        
+                {{-- <img src="{{ asset($detalles->servicio->img_principal) }}" alt="primera imagen" class="primera-image">
+                <img src="{{ asset($detalles->servicio->img_principal) }}" alt="segunda imagen" class="segunda-image">         --}}
             </div>
         </div>
     
-        <div class="div2">
+        <div class="div2" style="background-image: url('{{ asset($detalles->servicio->img_principal) }}');">
             Fondo Image
         </div>
     
         <div class="div3">
             <p class="titulo-text">
-                {{$detalles->servicio->titulo}}
+                {{-- {{$detalles->servicio->titulo}} --}}
             </p>
             <div class="descripcion-tour">
-                {!!$detalles->servicio->descripcion!!}
+                {{-- {!!$detalles->servicio->descripcion!!} --}}
             </div>
             
             <div class="itinerario-tour">

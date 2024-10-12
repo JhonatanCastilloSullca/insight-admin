@@ -119,7 +119,7 @@ body {
                         <tbody>
                             <tr style="font-size: 0.8rem;">
                                 <th style="background-color: #375a64; color: #ffffff;">GRUPO</th>
-                                <th><label class="form-label">JISA ADVENTURE</label></th>
+                                <th><label class="form-label">CUZCO TRAVEL</label></th>
                             </tr>
                             <tr style="font-size: 0.8rem;">
                                 <th style="background-color: #375a64; color: #ffffff;">FECHA</th>

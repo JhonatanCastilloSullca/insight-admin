@@ -25,7 +25,7 @@ class ReservarExport implements FromView, ShouldAutoSize, WithStyles, WithDrawin
     {
         $drawing = new Drawing();
         $drawing->setName('Logo');
-        $drawing->setDescription('Jisa Adventure');
+        $drawing->setDescription('Cuzco Travel');
         $drawing->setPath(public_path('storage/logo.png'));
         $drawing->setHeight(25);
         $drawing->setCoordinates('A1');

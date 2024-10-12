@@ -25,7 +25,7 @@ class PagoHotelMailable extends Mailable
         $fecha = $this->fecha;
         $monto = $this->monto;
         $monedaId = $this->monedaId;
-        return  $this->subject('Confirmación de Pago - Agencia de Viajes Jisa Adventure')
+        return  $this->subject('Confirmación de Pago - Agencia de Viajes Cuzco Travel')
         ->with(['notificacion' => false])
         ->from('operaciones@cuscoinsight.com', config('app.name'))
         ->markdown('pages.mails.pagohotel',[

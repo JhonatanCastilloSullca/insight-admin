@@ -8,9 +8,9 @@
     <!-- breadcrumb -->
     <div class="breadcrumb-header justify-content-between">
         <div class="left-content">
-        <span class="main-content-title mg-b-0 mg-b-lg-1">DASHBOARD</span>
+        <span class="main-content-title mg-b-0 mg-b-lg-1">Bienvenido al sistema de paqueteo</span>
         </div>
-        <div class="justify-content-center mt-2">
+        {{-- <div class="justify-content-center mt-2">
             <form action="{{ route('dashboard') }}" method="GET">
                 <div class="d-flex">
                     <div class="w-100 me-2">
@@ -24,11 +24,11 @@
                     </button>
                 </div>
             </form>
-        </div>
+        </div> --}}
     </div>
     <!-- /breadcrumb -->
     <!-- row -->
-    <div class="row">
+    {{-- <div class="row">
         <div class="col-md-6">
             <div class="card overflow-hidden">
                 <div class="card-body">
@@ -248,7 +248,7 @@
                 </div><!-- col-12 -->
             </div><!-- col-12 -->
         </div><!-- col-12 -->
-    </div>
+    </div> --}}
 
 
 

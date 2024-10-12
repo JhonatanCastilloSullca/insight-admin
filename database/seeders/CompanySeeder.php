@@ -16,7 +16,7 @@ class CompanySeeder extends Seeder
     public function run()
     {
         Company::create([
-            'razon_social' => "A.V.T. JISA ADVENTURE E.I.R.L.",
+            'razon_social' => "A.V.T. CUZCO TRAVEL E.I.R.L.",
             'ruc' => "20600769317",
             'direccion' => "CAL. GARCUKASI NRO. 265 INT. 12",
             'sol_user' => "48507551",
