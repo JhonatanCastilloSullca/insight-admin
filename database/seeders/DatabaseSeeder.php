@@ -23,12 +23,14 @@ class DatabaseSeeder extends Seeder
         $this->call(TipoCambioSeeder::class);
         $this->call(CategoriaSeeder::class);
         $this->call(UbicacionSeeder::class);
+        $this->call(MonedaSeed::class);
+        $this->call(PrecioSeeder::class);
+        
         
         // // $this->call(EtiquetaSeeder::class);
         // $this->call(PaisSeeder::class);
         // $this->call(GuiaSeeder::class);
         // // $this->call(PasajeroSeeder::class);
-        // $this->call(MonedaSeed::class);
         // $this->call(MedioSeeder::class);
         // // $this->call(ServicioSeeder::class);
         // // $this->call(PaqueteSeeder::class);

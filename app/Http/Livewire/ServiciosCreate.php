@@ -145,7 +145,7 @@ class ServiciosCreate extends Component
                 'duracion'          =>  $this->duracion ?? 1,
                 'horario'           =>  $this->horario,
                 'descuento'         =>  $this->descuento,
-                'categoria_id'      =>  $this->categoria_id,
+                'categoria_id'      =>  5,
                 'color'             =>  $this->colorpick,
                 'user_id'           =>  \Auth::user()->id,
                 'condicion'         =>  $this->condicion,
